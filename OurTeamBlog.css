@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,12 +54,13 @@ header nav a:hover {
 .ourTeam {
     text-align: center;
     margin: 5% auto;
+    margin-bottom: 3%;
     font-size: 3rem;
-    font-family: "Chelsea Market";
+    font-family: 'Chelsea Market', cursive;
     color: #36453B;
 }
 
-.sec2 {
+.sec2OT {
     display: flex;
     flex-direction: column;
 }
@@ -72,6 +75,7 @@ header nav a:hover {
 
 .imgPro {
     width: 40%;
+    border-radius: 10%;
 }
 
 .profileText {
@@ -87,4 +91,27 @@ header nav a:hover {
     margin-bottom: 5%;
     margin-top: 1%;
     font-size: 1.5rem;
+}
+
+.blog {
+    text-align: center;
+    margin: 5% auto;
+    font-size: 3rem;
+    font-family: 'Chelsea Market', cursive;
+    color: #36453B;
+}
+
+.sec2B {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.blogposts {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogimg1 {
+    width: 25%;
 }
