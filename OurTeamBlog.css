@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto&display=swap');
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,31 +26,52 @@ body {
     background-color: #ACBDBA;
 }
 
-header {
-    background-color: #A53860;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-evenly;
+/*nav{
+    display:flex;
     align-items: center;
-    padding: 2.5% 2%;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-color:rgba(25,1,1,.1);
+    (z-index: 999;
+    position: fixed;)
+     }
+
+.a{
+    width: 20%;
 }
 
-header nav a {
-    font-family: 'Roboto Mono', monospace;
-    color: white;
+.links{
+    width:85%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.link{width: 25%;
+    background-color: snow;
+    color:black;
+    justify-content: space-around;
+    border: 2px outset rgba(25,10,10,.1);
+}
+
+
+a{
+  
+    color:black; 
     text-decoration: none;
-    font-size: 1.25rem;
+    letter-spacing: 3px;
+    text-align: center;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header nav a:hover {
     transition: 0.75s;
     color: #36453B;
 }
+*/
 
 .ourTeam {
     text-align: center;
