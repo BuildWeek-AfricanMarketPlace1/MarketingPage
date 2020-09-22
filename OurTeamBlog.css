@@ -139,4 +139,20 @@ header nav .link:hover {
 
 .blogText{
     font-family: 'Roboto Mono', monospace;
+    color: #36453B;
+}
+
+.blogTitle {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 1.1rem;
+    color: #36453B;
+}
+
+.blogTextTitle {
+    padding: 5%;
+}
+
+.readMore {
+    font-family: 'Roboto Mono', monospace;
+    color: #36453B;
 }
