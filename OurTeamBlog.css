@@ -26,23 +26,8 @@ body {
     background-color: #ACBDBA;
 }
 
-<<<<<<< HEAD
-/* nav{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color:rgba(25,1,1,.1);
-    (z-index: 999;
-    position: fixed;)
-     }
-
-.a{
-    width: 20%;
-=======
 header {
     background-color: #A53860;
->>>>>>> bf60b8cc0c43f894506fe0f46068b43767114ae0
 }
 
 .links{
@@ -74,14 +59,9 @@ header {
 
 header nav .link:hover {
     transition: 0.75s;
-<<<<<<< HEAD
-    color: #36453B;
-} */
-=======
     color: #ACBDBA;
     background-color: #36453B;
 }
->>>>>>> bf60b8cc0c43f894506fe0f46068b43767114ae0
 
 
 .ourTeam {
