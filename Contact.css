@@ -24,25 +24,40 @@ body {
 }
 
 header {
-    background-color: #A53860;
+  background-color: #A53860;
 }
 
-header nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2.5% 2%;
-    font-size: 14px;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    text-align: center;
+.links{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-header nav a {
-    font-family: 'Roboto Mono', monospace;
-    color: white;
-    text-decoration: none;
-    font-size: 1.25rem;
+
+.logo {
+  width: 8%;
+  border-radius: 50%;
+  padding-top: 1%;
+  padding-bottom: 1%;;
+}
+
+.link{
+  width: 10%;
+  background-color: #ACBDBA;
+  color: #36453B;
+  justify-content: space-around;
+  border: 2px outset rgba(25,10,10,.1);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+header nav .link:hover {
+  transition: 0.75s;
+  color: #ACBDBA;
+  background-color: #36453B;
 }
 
 * {
