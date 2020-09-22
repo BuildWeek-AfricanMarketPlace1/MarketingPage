@@ -38,6 +38,8 @@ h2{
     text-align: center;   
 }
 p{
+
+font-size:1.5rem;
     font-family:'Roboto', sans-serif;
     margin: auto;
     justify-content: center;
@@ -88,16 +90,24 @@ header nav .link:hover {
     color: #ACBDBA;
     background-color: #36453B;
 }
+ button{
+    display:flex;
+  
+    background-color:rgb(14, 11, 11);
+    color: #A53860;
+    padding: 8%;
+    border: 2px solid #36453B;
+    margin-bottom:3%;
+}
 
-.entry{
+.about{
     background-image: url(https://media4.giphy.com/media/8rEB2xzZcZDnBegHFS/giphy.gif?cid=ecf05e47wl2dnmjwaynabe39tsof9moewx0c073ruidwmfcm&rid=giphy.gif);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    height: 75vh;  
-    margin-top:13%;
+    height: 85vh; 
 }
-.text-entry{
+.text-about{
     width:65%;
     display:flex;
     flex-direction: column;
@@ -106,33 +116,75 @@ header nav .link:hover {
     color:white;
     align-items: center;
     justify-content: center;
-
     background-color:rgba(1,1,1,.8);
 
 }
+.about-buttons{
+    width:35%;
+    display:flex;
+    justify-content: space-between;
+}
 .what{
-    width:100%;
     background-color:rgba(250,128,110,.8);
     padding:2%;
-    margin:auto;
-    margin-top: 10%;
+    
 }
-.how{
-    width:100%;
-    margin:auto;
+.what-buttons{
+    width:20%;
+    margin: auto;
+    display:flex;
+   
+}
 
+.how{
+    width:85%;
+    display:flex;
+    flex-flow:column;
+    margin:auto;
 padding: 2%;
 justify-content: space-between;
 
 }
-.contain{
+p .text-serv{
+    font-size: large;
+}
+.text-serv{
+    width:45%;
+    display:flex;
+    flex-direction: column;
+    padding: 1%;
     
+}
+.txt{
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
+    
 }
-.contain-flip{
+.img-serv{
     display:flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    width:45%;
+    
+}
+.how-buttons{
+    width:20%; 
+}
+.twiter{
+    width: 10%;
+    margin:auto;
+}
+.feed{
+    display:flex;
+   
+  
+}
+.msg{
+    display:flex;
+    width:30%;
+    border:2px solid #36453ba1;
+    padding:3%;
+      margin:auto;
 }
 #home img{
     border-radius: 50%;
@@ -203,7 +255,7 @@ footer{
   footer nav:hover{
     color:#fde769;
   }
-  button{
+  footer button{
     width:100%;
     background-color:rgb(14, 11, 11);
     color:#fde769;
@@ -212,10 +264,15 @@ footer{
     margin-bottom:3%;
   }
   
-  button:hover{
+ footer button:hover{
     background-color:whitesmoke;
     color:black;
     border:2px solid slategray;
+  }
+
+  .social{
+      width: 25%;
+      margin:auto;
   }
   
 
@@ -230,6 +287,26 @@ footer{
 }
 .support{
     margin:auto;
+}
+span{
+    font-style: italic;
+}
+.video{
+    width:60%;
+}
+.counter{
+    background-color:rgba(255, 149, 149, 0.3);
+}
+.text-aboutPage{
+    width:45%;
+    display:flex;
+
+    padding:5%;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(1,1,1,.2);
+
 }
 
 /*-----responisive-------*/
