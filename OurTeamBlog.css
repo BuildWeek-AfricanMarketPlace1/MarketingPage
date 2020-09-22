@@ -63,7 +63,7 @@ header nav .link:hover {
     background-color: #36453B;
 }
 
-
+/*Our Team*/
 .ourTeam {
     text-align: center;
     margin: 5% auto;
@@ -106,6 +106,7 @@ header nav .link:hover {
     font-size: 1.5rem;
 }
 
+/*Blog*/
 .blog {
     text-align: center;
     margin: 5% auto;
@@ -131,5 +132,11 @@ header nav .link:hover {
 }
 
 .blogimg1 {
-    width: 25%;
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.blogText{
+    font-family: 'Roboto Mono', monospace;
 }
