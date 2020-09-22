@@ -23,7 +23,7 @@ body {
     background-color: #ACBDBA;
 }
 
-header {
+/* header {
     background-color: #A53860;
 }
 
@@ -43,7 +43,7 @@ header nav a {
     color: white;
     text-decoration: none;
     font-size: 1.25rem;
-}
+} */
 
 * {
     box-sizing: border-box;

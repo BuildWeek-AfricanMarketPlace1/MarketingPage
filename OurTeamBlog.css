@@ -26,7 +26,7 @@ body {
     background-color: #ACBDBA;
 }
 
-/*nav{
+/* nav{
     display:flex;
     align-items: center;
     justify-content: center;
@@ -70,8 +70,8 @@ a{
 header nav a:hover {
     transition: 0.75s;
     color: #36453B;
-}
-*/
+} */
+
 
 .ourTeam {
     text-align: center;
