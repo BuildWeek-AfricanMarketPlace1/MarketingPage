@@ -26,6 +26,7 @@ body {
     background-color: #ACBDBA;
 }
 
+<<<<<<< HEAD
 /* nav{
     display:flex;
     align-items: center;
@@ -38,39 +39,49 @@ body {
 
 .a{
     width: 20%;
+=======
+header {
+    background-color: #A53860;
+>>>>>>> bf60b8cc0c43f894506fe0f46068b43767114ae0
 }
 
 .links{
-    width:85%;
     display:flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-
 }
-.link{width: 25%;
-    background-color: snow;
-    color:black;
+
+
+.logo {
+    width: 8%;
+    border-radius: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;;
+}
+
+.link{
+    width: 10%;
+    background-color: #ACBDBA;
+    color: #36453B;
     justify-content: space-around;
     border: 2px outset rgba(25,10,10,.1);
-}
-
-
-a{
-  
-    color:black; 
-    text-decoration: none;
-    letter-spacing: 3px;
     text-align: center;
-    border-radius: 10px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    text-decoration: none;
+    border-radius: 20%;
+    font-family: 'Roboto Mono', monospace;
 }
 
-header nav a:hover {
+header nav .link:hover {
     transition: 0.75s;
+<<<<<<< HEAD
     color: #36453B;
 } */
+=======
+    color: #ACBDBA;
+    background-color: #36453B;
+}
+>>>>>>> bf60b8cc0c43f894506fe0f46068b43767114ae0
 
 
 .ourTeam {
@@ -127,11 +138,16 @@ header nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 5%;
 }
 
 .blogposts {
     display: flex;
     flex-direction: column;
+    width: 25%;
+    background-color: #E09891; 
+    text-align: center;
+    border-radius: 10%;
 }
 
 .blogimg1 {
