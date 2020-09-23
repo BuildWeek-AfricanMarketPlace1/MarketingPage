@@ -36,7 +36,13 @@ h2{
     padding: 4% 0;
     text-align: center;   
 }
-
+h3{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 2% 0;
+    text-align: center;     
+}
 
 p{
 
@@ -55,20 +61,28 @@ section{
 header {
     background-color: #A53860;
 }
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    width:15%;
+    margin-left:10%;
+    display:flex;
+}
+.main-logo{
+    display: flex;
+    width:35%;
+    border-radius:50%;
+    margin:auto;
+}
 
 .links{
+    width:80%;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}
-
-
-.logo {
-    width: 8%;
-    border-radius: 50%;
-    padding-top: 1%;
-    padding-bottom: 1%;;
 }
 
 .link{
@@ -89,17 +103,18 @@ header {
     color: white;
 }
 .dropdown {
+    width:10%;
     position: relative;
     display: inline-block;
   }
   
   .dropdown-content {
     display: none;
-    position: relative;
+    position: fixed;
     background-color:  #E09891;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
+    padding: 1%;
     z-index: 1;
     border: 1px solid white;
   }
@@ -116,8 +131,8 @@ header {
   }
 
   .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
   }
 
 header nav .link:hover {
@@ -333,22 +348,27 @@ footer{
 span{
     font-style: italic;
 }
-.video{
-    width:45%;
+#head-about{
+    background-image: url(https://sautiafrica.org/wp-content/uploads/2019/10/3921a177-d9e5-4af6-8d26-124674e82621.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 75%;
+    background-attachment: fixed;
+    height: 85vh; 
 }
 .counter{
     background-color:rgba(255, 149, 149, 0.3);
+    border-bottom:3px dotted rgba(255, 149, 149);
 }
 .text-aboutPage{
-    width:45%;
-    display:flex;
-
+    width:75%;
+    margin:auto;
+    margin-top: 10%;
     padding:5%;
     color:black;
     align-items: center;
     justify-content: center;
-    background-color:rgba(1,1,1,.2);
-
+    background-color:rgba(197, 196, 196, 0.377);
 }
 
 /*-----Our Team-----*/
@@ -580,7 +600,7 @@ align-items: center;}*/
 
 @media(max-width:500px){body{background-color: aliceblue;}
 nav{display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%; 
@@ -588,7 +608,7 @@ nav{display:flex;
     header{
         display:flex;
         flex-direction: column;
-        border:2px solid red;
+        border:2px solid rgba(24, 24, 24, 0.719);
     }
     .dropdown {
         position: relative;
