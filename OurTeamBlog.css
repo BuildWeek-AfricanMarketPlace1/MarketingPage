@@ -97,6 +97,7 @@ header nav .link:hover {
     font-family: 'Roboto Mono', monospace;
     font-size: 0.9rem;
     margin-top: 2%;
+    text-align: center;
 }
 
 .names {
@@ -104,6 +105,26 @@ header nav .link:hover {
     margin-bottom: 5%;
     margin-top: 1%;
     font-size: 1.5rem;
+}
+
+@media (max-width: 800px)
+{
+
+}
+
+@media (max-width: 500px)
+{
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgPro {
+        width: 80%;
+    }
+    .profileText {
+        width: 80%;
+    }
 }
 
 /*Blog*/
