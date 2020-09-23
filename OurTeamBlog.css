@@ -109,7 +109,17 @@ header nav .link:hover {
 
 @media (max-width: 800px)
 {
-
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgPro {
+        width: 80%;
+    }
+    .profileText {
+        width: 80%;
+    }
 }
 
 @media (max-width: 500px)
@@ -150,6 +160,11 @@ header nav .link:hover {
     background-color: #E09891; 
     text-align: center;
     border-radius: 10%;
+    border: 3px solid  #A53860;
+}
+
+.blogposts:hover {
+    opacity: 70%;
 }
 
 .blogimg1 {
@@ -176,4 +191,41 @@ header nav .link:hover {
 .readMore {
     font-family: 'Roboto Mono', monospace;
     color: #36453B;
+}
+
+@media (max-width: 800px)
+{
+    .sec2B {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .blogposts {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        background-color: #E09891; 
+        text-align: center;
+        border-radius: 10%;
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .sec2B {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .blogposts {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        background-color: #E09891; 
+        text-align: center;
+        border-radius: 10%;
+        margin-bottom: 10%;
+    }
 }
