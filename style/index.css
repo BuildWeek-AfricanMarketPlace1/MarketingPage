@@ -376,7 +376,9 @@ p {
     font-family: 'Roboto Mono', monospace;
 }
 
-
+.profileText p{
+    font-size: 2rem;
+}
 
 .imgPro {
     width: 40%;
